@@ -2,10 +2,10 @@
   "name": "browser-version-detection",
   "version": "2.1.8",
   "description": "Browser detection using the user agent, returns the name and version of the browser",
-  "main": "dist/browser-detection.js",
+  "main": "dist/browser-detection.min.js",
   "scripts": {
     "prepare": "npm start",
-    "start": "webpack --config webpack.config.js",
+    "start": "rollup src/browser-detection.js --o dist/browser-detection.min.js --f cjs",
     "lint": "eslint src/**/*.js",
     "test": "jest --coverage"
   },
@@ -40,7 +40,7 @@
     "eslint": "~4.16.0",
     "eslint-config-google": "^0.9.1",
     "jest": "~22.1.4",
-    "webpack": "~3.10.0"
+    "rollup": "~0.55.1"
   },
   "dependencies": {}
 }
