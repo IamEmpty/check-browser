@@ -5,7 +5,7 @@
   "main": "dist/browser-detection.min.js",
   "scripts": {
     "prepare": "npm start",
-    "start": "rollup src/browser-detection.js --o dist/browser-detection.min.js --f cjs",
+    "start": "rollup -c",
     "lint": "eslint src/**/*.js",
     "test": "jest --coverage"
   },
