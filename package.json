@@ -41,7 +41,7 @@
     "eslint": "^5.6.0",
     "eslint-config-google": "^0.9.1",
     "jest": "^23.6.0",
-    "webpack": "^4.19.1",
+    "webpack": "^4.26.1",
     "webpack-cli": "^3.1.0"
   },
   "dependencies": {
